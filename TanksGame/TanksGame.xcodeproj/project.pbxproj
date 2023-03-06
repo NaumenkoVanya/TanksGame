@@ -102,14 +102,12 @@
 		CA89A29829B6197E0081C336 /* TanksGame */ = {
 			isa = PBXGroup;
 			children = (
-				CA89A29929B6197E0081C336 /* AppDelegate.swift */,
-				CA89A29B29B6197E0081C336 /* GameScene.sks */,
-				CA89A29D29B6197E0081C336 /* Actions.sks */,
-				CA89A29F29B6197E0081C336 /* GameScene.swift */,
-				CA89A2A129B6197E0081C336 /* GameViewController.swift */,
-				CA89A2A329B6197E0081C336 /* Main.storyboard */,
+				CA89A2D129B61C790081C336 /* Scena */,
+				CA89A2CE29B61B860081C336 /* Model */,
+				CA89A2CF29B61BA30081C336 /* Views */,
+				CA89A2CC29B61B470081C336 /* Controllers */,
+				CA89A2D029B61C490081C336 /* App */,
 				CA89A2A629B619800081C336 /* Assets.xcassets */,
-				CA89A2A829B619800081C336 /* LaunchScreen.storyboard */,
 			);
 			path = TanksGame;
 			sourceTree = "<group>";
@@ -129,6 +127,48 @@
 				CA89A2BF29B619810081C336 /* TanksGameUITestsLaunchTests.swift */,
 			);
 			path = TanksGameUITests;
+			sourceTree = "<group>";
+		};
+		CA89A2CC29B61B470081C336 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A2A329B6197E0081C336 /* Main.storyboard */,
+				CA89A2A829B619800081C336 /* LaunchScreen.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA89A2CE29B61B860081C336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA89A2CF29B61BA30081C336 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A29F29B6197E0081C336 /* GameScene.swift */,
+				CA89A2A129B6197E0081C336 /* GameViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA89A2D029B61C490081C336 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A29929B6197E0081C336 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CA89A2D129B61C790081C336 /* Scena */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A29B29B6197E0081C336 /* GameScene.sks */,
+				CA89A29D29B6197E0081C336 /* Actions.sks */,
+			);
+			path = Scena;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
