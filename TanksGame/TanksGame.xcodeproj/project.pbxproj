@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA89A29A29B6197E0081C336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A29929B6197E0081C336 /* AppDelegate.swift */; };
+		CA89A29C29B6197E0081C336 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA89A29B29B6197E0081C336 /* GameScene.sks */; };
+		CA89A29E29B6197E0081C336 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA89A29D29B6197E0081C336 /* Actions.sks */; };
+		CA89A2A029B6197E0081C336 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A29F29B6197E0081C336 /* GameScene.swift */; };
+		CA89A2A229B6197E0081C336 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A2A129B6197E0081C336 /* GameViewController.swift */; };
+		CA89A2A529B6197E0081C336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA89A2A329B6197E0081C336 /* Main.storyboard */; };
+		CA89A2A729B619800081C336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA89A2A629B619800081C336 /* Assets.xcassets */; };
+		CA89A2AA29B619800081C336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA89A2A829B619800081C336 /* LaunchScreen.storyboard */; };
+		CA89A2B429B619810081C336 /* TanksGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A2B329B619810081C336 /* TanksGameTests.swift */; };
+		CA89A2BE29B619810081C336 /* TanksGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A2BD29B619810081C336 /* TanksGameUITests.swift */; };
+		CA89A2C029B619810081C336 /* TanksGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA89A2BF29B619810081C336 /* TanksGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA89A2B029B619810081C336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA89A28E29B6197E0081C336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA89A29529B6197E0081C336;
+			remoteInfo = TanksGame;
+		};
+		CA89A2BA29B619810081C336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA89A28E29B6197E0081C336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA89A29529B6197E0081C336;
+			remoteInfo = TanksGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA89A29629B6197E0081C336 /* TanksGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanksGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA89A29929B6197E0081C336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA89A29B29B6197E0081C336 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CA89A29D29B6197E0081C336 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CA89A29F29B6197E0081C336 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CA89A2A129B6197E0081C336 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CA89A2A429B6197E0081C336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA89A2A629B619800081C336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA89A2A929B619800081C336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA89A2AF29B619810081C336 /* TanksGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanksGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA89A2B329B619810081C336 /* TanksGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanksGameTests.swift; sourceTree = "<group>"; };
+		CA89A2B929B619810081C336 /* TanksGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanksGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA89A2BD29B619810081C336 /* TanksGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanksGameUITests.swift; sourceTree = "<group>"; };
+		CA89A2BF29B619810081C336 /* TanksGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanksGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA89A29329B6197E0081C336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2AC29B619810081C336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2B629B619810081C336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA89A28D29B6197E0081C336 = {
+			isa = PBXGroup;
+			children = (
+				CA89A29829B6197E0081C336 /* TanksGame */,
+				CA89A2B229B619810081C336 /* TanksGameTests */,
+				CA89A2BC29B619810081C336 /* TanksGameUITests */,
+				CA89A29729B6197E0081C336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA89A29729B6197E0081C336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A29629B6197E0081C336 /* TanksGame.app */,
+				CA89A2AF29B619810081C336 /* TanksGameTests.xctest */,
+				CA89A2B929B619810081C336 /* TanksGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA89A29829B6197E0081C336 /* TanksGame */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A29929B6197E0081C336 /* AppDelegate.swift */,
+				CA89A29B29B6197E0081C336 /* GameScene.sks */,
+				CA89A29D29B6197E0081C336 /* Actions.sks */,
+				CA89A29F29B6197E0081C336 /* GameScene.swift */,
+				CA89A2A129B6197E0081C336 /* GameViewController.swift */,
+				CA89A2A329B6197E0081C336 /* Main.storyboard */,
+				CA89A2A629B619800081C336 /* Assets.xcassets */,
+				CA89A2A829B619800081C336 /* LaunchScreen.storyboard */,
+			);
+			path = TanksGame;
+			sourceTree = "<group>";
+		};
+		CA89A2B229B619810081C336 /* TanksGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A2B329B619810081C336 /* TanksGameTests.swift */,
+			);
+			path = TanksGameTests;
+			sourceTree = "<group>";
+		};
+		CA89A2BC29B619810081C336 /* TanksGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA89A2BD29B619810081C336 /* TanksGameUITests.swift */,
+				CA89A2BF29B619810081C336 /* TanksGameUITestsLaunchTests.swift */,
+			);
+			path = TanksGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA89A29529B6197E0081C336 /* TanksGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA89A2C329B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGame" */;
+			buildPhases = (
+				CA89A29229B6197E0081C336 /* Sources */,
+				CA89A29329B6197E0081C336 /* Frameworks */,
+				CA89A29429B6197E0081C336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanksGame;
+			productName = TanksGame;
+			productReference = CA89A29629B6197E0081C336 /* TanksGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA89A2AE29B619810081C336 /* TanksGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA89A2C629B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGameTests" */;
+			buildPhases = (
+				CA89A2AB29B619810081C336 /* Sources */,
+				CA89A2AC29B619810081C336 /* Frameworks */,
+				CA89A2AD29B619810081C336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA89A2B129B619810081C336 /* PBXTargetDependency */,
+			);
+			name = TanksGameTests;
+			productName = TanksGameTests;
+			productReference = CA89A2AF29B619810081C336 /* TanksGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA89A2B829B619810081C336 /* TanksGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA89A2C929B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGameUITests" */;
+			buildPhases = (
+				CA89A2B529B619810081C336 /* Sources */,
+				CA89A2B629B619810081C336 /* Frameworks */,
+				CA89A2B729B619810081C336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA89A2BB29B619810081C336 /* PBXTargetDependency */,
+			);
+			name = TanksGameUITests;
+			productName = TanksGameUITests;
+			productReference = CA89A2B929B619810081C336 /* TanksGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA89A28E29B6197E0081C336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA89A29529B6197E0081C336 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CA89A2AE29B619810081C336 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA89A29529B6197E0081C336;
+					};
+					CA89A2B829B619810081C336 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA89A29529B6197E0081C336;
+					};
+				};
+			};
+			buildConfigurationList = CA89A29129B6197E0081C336 /* Build configuration list for PBXProject "TanksGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA89A28D29B6197E0081C336;
+			productRefGroup = CA89A29729B6197E0081C336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA89A29529B6197E0081C336 /* TanksGame */,
+				CA89A2AE29B619810081C336 /* TanksGameTests */,
+				CA89A2B829B619810081C336 /* TanksGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA89A29429B6197E0081C336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89A2A529B6197E0081C336 /* Main.storyboard in Resources */,
+				CA89A29C29B6197E0081C336 /* GameScene.sks in Resources */,
+				CA89A2A729B619800081C336 /* Assets.xcassets in Resources */,
+				CA89A2AA29B619800081C336 /* LaunchScreen.storyboard in Resources */,
+				CA89A29E29B6197E0081C336 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2AD29B619810081C336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2B729B619810081C336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA89A29229B6197E0081C336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89A2A029B6197E0081C336 /* GameScene.swift in Sources */,
+				CA89A2A229B6197E0081C336 /* GameViewController.swift in Sources */,
+				CA89A29A29B6197E0081C336 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2AB29B619810081C336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89A2B429B619810081C336 /* TanksGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89A2B529B619810081C336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89A2C029B619810081C336 /* TanksGameUITestsLaunchTests.swift in Sources */,
+				CA89A2BE29B619810081C336 /* TanksGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA89A2B129B619810081C336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA89A29529B6197E0081C336 /* TanksGame */;
+			targetProxy = CA89A2B029B619810081C336 /* PBXContainerItemProxy */;
+		};
+		CA89A2BB29B619810081C336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA89A29529B6197E0081C336 /* TanksGame */;
+			targetProxy = CA89A2BA29B619810081C336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA89A2A329B6197E0081C336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA89A2A429B6197E0081C336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA89A2A829B619800081C336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA89A2A929B619800081C336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA89A2C129B619810081C336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA89A2C229B619810081C336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA89A2C429B619810081C336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA89A2C529B619810081C336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA89A2C729B619810081C336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanksGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TanksGame";
+			};
+			name = Debug;
+		};
+		CA89A2C829B619810081C336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanksGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TanksGame";
+			};
+			name = Release;
+		};
+		CA89A2CA29B619810081C336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TanksGame;
+			};
+			name = Debug;
+		};
+		CA89A2CB29B619810081C336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.TanksGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TanksGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA89A29129B6197E0081C336 /* Build configuration list for PBXProject "TanksGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA89A2C129B619810081C336 /* Debug */,
+				CA89A2C229B619810081C336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA89A2C329B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA89A2C429B619810081C336 /* Debug */,
+				CA89A2C529B619810081C336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA89A2C629B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA89A2C729B619810081C336 /* Debug */,
+				CA89A2C829B619810081C336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA89A2C929B619810081C336 /* Build configuration list for PBXNativeTarget "TanksGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA89A2CA29B619810081C336 /* Debug */,
+				CA89A2CB29B619810081C336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA89A28E29B6197E0081C336 /* Project object */;
+}
